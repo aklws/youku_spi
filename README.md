@@ -15,6 +15,7 @@
 - Playwright
 - requests
 - BeautifulSoup
+- lxml
 
 ## 如何使用
 
