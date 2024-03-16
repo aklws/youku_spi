@@ -31,6 +31,7 @@ cd youku_spi
 安装依赖项：
 ```bash
 pip install -r requirements.txt
+playwright install firefox
 ```
 如果是通过git获取的源码，需要在根目录下放入ffmpeg的二进制包
 
