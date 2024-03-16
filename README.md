@@ -32,6 +32,8 @@ cd youku_spi
 ```bash
 pip install -r requirements.txt
 ```
+如果是通过git获取的源码，需要在根目录下放入ffmpeg的二进制包
+
 使用示例
 ```python
 python main.py
