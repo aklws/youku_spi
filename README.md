@@ -11,11 +11,8 @@
 ## 依赖项
 
 - Python 3.12
-- PyQt5
-- Playwright
+- tk
 - requests
-- BeautifulSoup
-- lxml
 
 ## 如何使用
 
