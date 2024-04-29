@@ -36,10 +36,10 @@ class YoukuVideoDownloader:
             }
 
             response = requests.get(
-                f'https://m1-a1.cloud.nnpp.vip:2223/api/v/?z=c09c0e4fab25d3ab91d937a0e01780e7&jx={address}',
+                f'https://m1-a1.cloud.nnpp.vip:2223/api/v/?z=924269ba54ab81a99a45abc5bab03192&jx={address}',
                 headers=headers,
             )
-            print(response.json())
+            print(response.text)
             json_data = response.json()
             if 'data' in json_data and len(json_data['data']) > 0:
                 episodes = json_data['data'][0]['source']['eps']
